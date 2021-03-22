@@ -209,22 +209,22 @@ public class Author {
 		subbu.callToAction();
 
 	}
-/**
- * Constructor from superclass
- */
+	/**
+	 * Constructor from superclass
+	 */
 	public Author() {
 		super();
 	}
-/**
- * This method greets the user for reading this entire article 
- */
+	/**
+	 * This method greets the user for reading this entire article 
+	 */
 	private void sayThanks() {
 		System.out.println("Thanks for your time :) ");
 		System.out.println("Will see you in the next targeted article");
 	}
-/**
- * This method is used for call to action by providing mail id
- */
+	/**
+	 * This method is used for call to action by providing mail id
+ 	*/
 	private void callToAction() {
 		System.out.println("If you have any queries mail to " + emailId);
 	}
